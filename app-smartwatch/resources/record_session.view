@@ -1,0 +1,29 @@
+<svg class="background">
+
+  <rect x="0"  y="0" width="100%" height="90%" fill="#000000" />
+
+      <use id="header" href="#my-tile-list-header" class="tile-list-header">
+        <set href="text" attributeName="text-buffer" to="Record session" />
+      </use>
+	  
+	  <g id="play-button" pointer-events="visible">
+		<rect  x="0"  y="80%" width="35%" height="20%" fill="#006F00" />
+		<text class="play_button">Start</text>
+	  </g>
+	  
+	  <g id="stop-button" pointer-events="visible">
+	  	<rect  x="35%"  y="80%" width="30%" height="20%" fill="#AF360C" />
+		<text class="stop_button">Stop</text>
+	  </g>
+	  
+	  <g id="reset-button" pointer-events="visible">
+		<rect  x="65%"  y="80%" width="35%" height="20%" fill="#666666" />
+		<text class="reset_button">Reset</text>
+	  </g>
+	  
+	  <text text-length="15" id="action" class="text-info">Stopped</text>
+	  
+	
+	 
+	   
+</svg>

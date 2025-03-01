@@ -1,0 +1,179 @@
+
+.application-fill           { fill: fb-cyan; }
+.foreground-fill            { fill: fb-white; }
+.background-fill            { fill: fb-black; }
+
+.container {
+  x: 10%;
+  y: 60%;
+  width: 80%;
+  height: 20%;
+}
+
+.row {
+  y: $;
+  height: 60;
+}
+
+.line {
+  y: 100%-4;
+  width: 100%;
+  height: 4;
+  fill: gray;
+  fill-opacity: 0.5;
+}
+
+.text-button            { height: 50; }
+.text-button text       { x: 50%; y: 35; width: 100%; text-anchor: middle; text-length: 64; }
+.text-button.primary    { y: 100%-106; }
+.text-button.secondary  { y: 100%-50; }
+.text-button.bottom     { y: 100%-60; }
+
+.toggle-switch          { x: 100%-70; }
+
+.uppercase              { text-transform: uppercase; }
+
+
+.defaultText {
+  font-size: 20;
+  font-family: System-Regular;
+  font-weight: regular;
+  text-length: 32;
+  fill: "fb-white";
+}
+
+.tile-list-item {
+  height: 114;
+}
+
+.tile-list-header {
+  height: 69;
+}
+
+.tile-background {
+  x: 0;
+  y: 0;
+  width: 100%;
+  height: 100%-10;
+  fill: #000000;
+  opacity: 0.25;
+}
+
+.tile-list-item text {
+  font-size: 32;
+  text-length: 64;
+  x: 30%;
+  y: 55%;
+}
+
+.tile-list-header text {
+  x: 50%;
+}
+
+.tile-list-icon {
+  x: 10%;
+  y: 25%;
+  width: 50;
+  height: 50;
+}
+
+
+
+
+
+
+.text-info {
+  x: 50%;
+  y: 50%;  
+  text-anchor: middle;
+  font-size: 45;
+  width: 100%;
+  fill: "fb-white";
+}
+
+.custom-button{
+  x: 50%;
+  y: 97%;
+  text-anchor: middle;
+  alignment-baseline: middle;
+  fill:"#2196F3";
+  font-size:"22";
+  font-weight:"bold";
+}
+
+
+.play_button {
+  x: 20%; 
+  y: 90%;
+  text-anchor: middle;
+  font-size: 25;
+  width: 30%;
+  fill: "#00FF00";
+}
+
+.stop_button {
+  x: 50%; 
+  y: 90%;
+  text-anchor: middle;
+  font-size: 25;
+  width: 30%;
+  fill: "#FFB74D";
+}
+
+.reset_button {
+  x: 80%; 
+  y: 90%;
+  text-anchor: middle;
+  font-size: 25;
+  width: 30%;
+  fill: "#CCCCCC";
+}
+
+.previous_button {
+  x: 20%; 
+  y: 90%;
+  text-anchor: middle;
+  font-size: 25;
+  width: 30%;
+  fill: "#FFB74D";
+}
+
+.next_button {
+  x: 50%; 
+  y: 90%;
+  text-anchor: middle;
+  font-size: 25;
+  width: 30%;
+  fill: "#00FF00";
+}
+
+.delete_button {
+  x: 80%; 
+  y: 90%;
+  text-anchor: middle;
+  font-size: 25;
+  width: 30%;
+  fill: "#FF6666";
+}
+
+
+.session{
+  x: 50%; 
+  y: 25%;
+  font-size: 25;
+  text-anchor: middle;
+  fill: "#87CEEB";
+	
+}
+
+#scroll{
+  x: 10%; 
+  y: 30%;
+  font-size: 30;
+  width: 90%;
+  height: 45%;
+  fill: "#FFFFFF";
+  
+	
+}
+
